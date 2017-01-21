@@ -61,7 +61,7 @@
 #### svn 依赖安装
 Windows/MacOS: svn && svnmucc
 
-TODP: 
+TODO: 
 
     ftp -> vinyl-ftp
     scp -> gulp-scp2
