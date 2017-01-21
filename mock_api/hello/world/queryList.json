@@ -1,0 +1,22 @@
+{
+    "_responseControl": {
+        "statusCode": 200,
+        "serverError": false, 
+        "timeout": 0,
+        "resCode": 0
+    },
+
+    "input": "",
+    "code": 0,
+    "msg": "",
+    "data|1-5": [
+        {
+            "addressId": "@string('number', 10)",
+            "consigneeName": "@cname",
+            "mobilePhone": "1@string('number', 10)",
+            "isDefault": true,
+            "areas": "@county(true)饭撒发生,大幅度，是风的撒",
+            "detailAddress": "@cword('大街道小街道大小街道', 5, 15)"
+        }
+    ]
+}

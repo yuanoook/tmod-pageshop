@@ -1,0 +1,12 @@
+.*
+# 保证大家同步到相同的 gitignore 文件
+!.gitignore
+
+build/
+!src/common/tmod/build/template.js
+
+*.log
+svn/
+dest/
+node_modules/
+htmlone_temp/

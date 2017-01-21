@@ -1,0 +1,41 @@
+{
+    "readMore": "http://mockjs.com/examples.html",
+
+    "_requestPayload": {
+        "hospitalId": "@string('number', 10)",
+        "ofPatientRelationId": "@string('number', 10)",
+        "treatmentCardId": "@string('number', 10)"
+    },
+
+    "_responseControl": {
+        "statusCode": 200,
+        "serverError": false, 
+        "timeout": 0,
+        "resCode": 0
+    },
+
+    "string|1-10": "★",
+    "number|1-100.1-10": 1,
+    "boolean|1-2": true,
+    "object|2": {
+        "310000": "上海市",
+        "320000": "江苏省",
+        "330000": "浙江省",
+        "340000": "安徽省"
+    },
+    "array|1": [
+        "AMD",
+        "CMD",
+        "UMD"
+    ],
+    "array2|1-10": [
+        {
+        "name|+1": [
+                "Hello",
+                "Mock.js",
+                "!"
+            ]
+        }
+    ],
+    "data": "@date"
+}
